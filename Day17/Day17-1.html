@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.cube {
+			background-color: lime;
+			position: absolute;
+			animation-duration: 10s;
+			animation-delay: 1s;
+			animation-timing-function: 1s linear;
+			animation-name: animashka;	
+			border-radius: 50%;
+			animation-iteration-count: infinite;
+			animation-play-state: running;
+		}
+		.cube:hover {
+			animation-play-state: paused;
+		}
+		@keyframes animashka {
+			from  {
+				left: 1px;
+				top: 1px;
+			}
+			25% {
+				left: 800px;
+				top: 800px;
+			}
+			50% {
+				right: 800px;
+				top: 800px;
+			}
+			100% {
+				left: 800px;
+				top: 1px;
+			}
+			to {
+				left: 1px;
+				top: 1px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="cube"></div>
+</body>
+</html>

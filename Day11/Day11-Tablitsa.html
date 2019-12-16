@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day11-Tablitsa</title>
+</head>
+	<style type="text/css">
+		table {
+			border: solid black 2px;
+			border-collapse: collapse;
+		}
+/*		table tr:first-child td:first-child {
+			background: red;
+		}
+		table tr:last-child td:last-child {
+			background: blue;
+		}*/
+		td {
+			border: solid black 2px;
+			padding: 20px;
+		}
+/*		tr:nth-child(n+1) td:not(.exclusion) {
+			background: blue;
+		}*/
+		tr:nth-child(n+2):not(.exclusion) {
+			background: green;
+		}
+		.r + .d {
+			height: 75px;
+			width: 50px;
+			border: 1px blue solid;
+			background: red;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		.rem>p {
+			color: red;
+			font-size: 30px;
+		}
+		tr>* {
+			color: purple;
+		}
+	</style>
+<body>
+	<table>
+		<tr>
+			<td>123143</td>
+			<td>34652</td>
+			<td>3476463734</td>
+			<td>64767634</td>
+		</tr>
+		<tr>
+			<td class="exclusion">4373467</td>
+			<td>34673467</td>
+			<td>3467364</td>
+			<td>3467</td>
+		</tr>
+		<tr class="exclusion">
+			<td>346736</td>
+			<td>367637</td>
+			<td>34763467</td>
+			<td>36473467</td>
+		</tr>
+		<tr>
+			<td>3467364</td>
+			<td>45764367</td>
+			<td>467y3467</td>
+			<td>34746437</td>
+		</tr>
+		<tr>
+			<td>34673467</td>
+			<td>34673647</td>
+			<td>34673467</td>
+			<td>34766437</td>
+		</tr>
+	</table>
+
+	<div class="r">Sunny</div>
+	<span class="d">Bunny</span>
+
+	<div class="rem">
+		<p>ololololol<div>dghsdhgf<p>safgsegfedgfdg</p></div></p>
+		<p>ololololol</p>
+		<p>ololololol</p>
+		<p>ololololol</p>
+		<p>ololololol</p>
+		<div class="pam">lalalala</div>
+	</div>
+
+</body>
+</html>

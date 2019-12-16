@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Da11-4</title>
+	<style type="text/css">
+		input {
+			display: none;
+		}
+		label {
+			display: block;
+		}
+		.dd:checked + label .kuku {
+			display: block;
+		}
+		.dd:checked + label + label > .kuku {
+			display: block;
+		}
+		.kuku {
+			height: 10px;
+			width: 60px;
+			border-radius: 7.5px;
+			border: 2px black solid;
+			background-color: yellow;
+			color: purple;
+			display: none;
+		}
+		.kuka {
+			height: 25px;
+			width: 25px;
+			border-radius: 5px;
+			border: 3px black solid;
+			background-color: lightgrey;
+			color: blue;
+		}
+
+	</style>
+</head>
+<body>
+	<input class="dd" type="checkbox" id="zadanie">
+	<label for="zadanie">
+		Vypadayushaya menushka
+		<div class="kuku">
+			Ku-ku
+		</div>
+	</label>
+	<label for="zadanie2">
+		Vypadayushaya menushka
+		<div class="kuku">
+			Ku-ka
+		</div>
+	</label>
+
+</body>
+</html>

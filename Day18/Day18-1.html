@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		.cube {
+			height: 800px;
+			width: 800px;
+			position: relative;
+
+			animation-duration: 10s;
+			animation-delay: 1s;
+			animation-timing-function: 1s linear;
+			animation-name: animashka;
+			animation-iteration-count: infinite;
+			animation-play-state: running;
+		}
+
+		@keyframes animashka {
+			from  {
+				left: 150px;
+				top: 95px;
+			}
+			25% {
+				left: 400px;
+				top: 400px;
+			}
+			50% {
+				right: 400px;
+				top: 400px;
+			}
+			100% {
+				left: 400px;
+				top: 1px;
+			}
+			to {
+				left: 1px;
+				top: 1px;
+			}
+		}
+
+		.class1 {
+			height: 2px;
+			width: 60px;
+			background-color: pink;
+			position: absolute;
+			transform: translate(550px, 295px);
+		}
+		.class2 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(583px, 263px) rotate(-45deg);
+		}
+		.class3 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(654px, 260px) rotate(45deg);
+		}
+		.class4 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(740px, 297px);
+		}
+		.class5 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(756px, 334px) rotate(-45deg);
+		}
+		.class6 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(756px, 402px) rotate(45deg);
+		}
+		.class7 {
+			position: absolute;
+			height: 2px;
+			width: 135px;
+			background-color: pink;
+			transform: translate(710px, 400px) rotate(30deg);
+		}
+		.class8 {
+			position: absolute;
+			height: 2px;
+			width: 135px;
+			background-color: pink;
+			transform: translate(600px, 400px) rotate(-30deg);
+		}
+		.class9 {
+			position: absolute;
+			height: 2px;
+			width: 100px;
+			background-color: pink;
+			transform: translate(590px, 400px) rotate(-45deg);
+		}
+		.class10 {
+			position: absolute;
+			height: 2px;
+			width: 150px;
+			background-color: pink;
+			transform: translate(530px, 330px) rotate(30deg);
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="cube">
+		<div class="class1"></div>
+		<div class="class2"></div>
+		<div class="class3"></div>
+		<div class="class4"></div>
+		<div class="class5"></div>
+		<div class="class6"></div>
+		<div class="class7"></div>
+		<div class="class8"></div>
+		<div class="class9"></div>
+		<div class="class10"></div>
+	</div>
+</body>
+</html>

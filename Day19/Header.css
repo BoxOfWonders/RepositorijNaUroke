@@ -1,0 +1,108 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body {
+			height: 100%;
+		}
+		/*Container*/
+		.container {
+			width: 100%;
+		}		
+		/*Header and stuff in it*/		
+		#header {
+			height: 100px;
+			width: 100%;
+			background-color: #DCDCDC;
+			color: #191970;
+			position: fixed;
+			z-index: 1000;
+		}
+		.SubHeader {
+			width: 1100px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		#header::after {
+			content: '';
+			display: block;
+			clear: both;
+			height: 0px;
+		}
+		.brown {
+			color: #A52A2A;
+		}
+		#square {			
+			height: 50px;
+			width: 50px;
+			background-color: #191970;
+			position: relative;
+			float: left;
+		}
+		.line1 {
+			height: 4px;
+			width: 30px;
+			background-color: #DAA520;
+			position: absolute;
+			top: 35%;
+			right: 30%
+		}
+		.line2 {
+			height: 4px;
+			width: 30px;
+			background-color: #DAA520;
+			position: absolute;
+			top: 50%;
+			right: 30%;
+		}
+		.shortline {
+			height: 4px;
+			width: 14px;
+			background-color: #DAA520;
+			position: absolute;
+			bottom: 27%;
+			left: 12%;
+		}
+		.kubic {
+			float: left;
+			margin: 25px 10px 25px 90px;
+		}
+		.CruiserAddiction {
+			float: left;
+			margin: 35px 15px 65px 10px;
+		}
+		.SearchBar {
+			float: left;
+			margin: 35px 10px 25px -5px;
+		}
+		.Stroka {
+			padding-left: 35px;
+		}
+		.ObertkaForm {
+			position: relative;
+		}
+		.Lupa {
+			position: absolute;
+			margin: 5px;
+		}
+		input[type="text"] {
+			font-size: 19px;
+			width: 370px;
+			height: 27px;
+		}
+		.basket {
+			margin: 30px 25px;
+			float: left;
+		}
+		.human {
+			margin: 30px 25px;
+			float: left;
+		}
+		.LangSwitch {
+			margin: 30px 25px;
+			float: left;
+		}
+		/*MainBlock*/
+		.MainBlock {
+			width: 1100px;
+		}

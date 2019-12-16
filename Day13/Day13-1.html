@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day13-1</title>
+	<style type="text/css">
+		.flexik {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 1000px;
+			width: 1000px;
+			border: 3px solid blue;
+			border-radius: 5px;
+			background: yellow;
+			padding: 50px 0;
+			flex-direction: column;
+		}
+		.blochek1 {
+			height: 150px;
+			width: 150px;
+			background: blue;
+			border: 1px solid black;
+			order: 2;
+		}
+		.blochek2 {
+			height: 150px;
+			width: 150px;
+			background: green;
+			border: 1px solid black;
+			order: 3;
+			align-self: flex-end;
+		}
+		.blochek3 {
+			height: 150px;
+			width: 150px;
+			background: orange;
+			border: 1px solid black;
+			order: 1;
+			align-self: flex-start;
+		}
+	</style>
+</head>
+<body>
+	<div class="flexik">
+		<div class="blochek1"></div>
+		<div class="blochek2"></div>
+		<div class="blochek3"></div>
+	</div>
+</body>
+</html>

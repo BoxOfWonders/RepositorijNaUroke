@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day16-2</title>
+	<style type="text/css">
+		header {
+			width: 100%;
+			display: flex;
+			height: 150px;
+			justify-content: space-between;
+		}
+		.content {
+			width: 1300px;
+			background-color: green;
+			height: 150px;
+			padding: 20px;
+			box-sizing: border-box;
+			display: flex;
+		}
+		.menu {
+			display: flex;
+		}
+		 .menu > div {
+		 	margin: 0px 15px;
+		}
+		.logo {
+			height: 75px;
+			width: 75px;
+			background-color: blue;
+			border-radius: 50%;
+			display: flex;
+		}
+		.burger {
+			height: 100px;
+			width: 100px;
+			display: none;
+			flex-direction: column;
+		}
+		.burger > div {
+			width: 100%;
+			height: 1px;
+			background: white;
+		}
+		@media screen and (max-width: 580px){
+			.menu {
+				display: none;
+			}
+			.burger {
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="content">
+			<div class="logo"></div>
+			<div class="menu">
+				<div>Home</div>
+				<div>About</div>
+				<div>Contact Us</div>
+				<div>Adres</div>
+				<div>Bio</div>
+			</div>
+			<div class="burger">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</div>
+		</div>
+	</header>
+
+</body>
+</html>

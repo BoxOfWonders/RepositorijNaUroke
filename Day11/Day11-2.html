@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		input {
+			display: none;
+		}
+		label {
+			display: block;
+		}
+		input + label .test1 {
+			display: none;
+			width: 50px;
+		}
+
+		input:checked + label .test1 {
+			display: block;
+	
+		}
+
+		.test1:after {
+			content: '';
+			display: block;
+			border: 50px solid transparent;
+			border-top: 25px solid red;
+
+		}
+
+	</style>
+</head>
+<body>
+	<input type="checkbox" id="test">
+	<label for="test">
+		Textik
+		<div class="test1">
+			Test
+		</div>
+	</label>
+</body>
+</html>
